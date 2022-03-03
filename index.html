@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog de Viajes</title>
+    <script src="https://kit.fontawesome.com/4459c5e3f4.js" crossorigin="anonymous"></script>
+    <!--Enlace con Font awesome para los iconos-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Normalize siempre va antes de los estilos porque es el reset-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header contenedor">
+        <!--El contenedor hace que el logo se centre-->
+        <img src="img/logo.png" alt="Imagen del logo">
+    </header>
+
+    <div class="barra">
+
+        <a href="#nav" class="mobile-menu">
+            <!--El gato en el href es para que sea hacia un id-->
+            <i class="fas fa-chevron-circle-down"></i>
+        </a>
+
+        <!--Por default el div tomara todo el espacio disponible-->
+        <nav id="nav" class="navegacion-principal contenedor">
+            <!--El contenedor se pone en el nav para que los enlaces se centren-->
+            <a href="#">Inicio</a>
+            <!--Signo de gato para simular que son enlaces-->
+            <a href="#">Nosotros</a>
+            <a href="#">Blogs</a>
+            <a href="#">Tienda</a>
+            <a href="#">Contacto</a>
+
+            <a href="#" class="cerrar">
+                <i class="fas fa-times-circle"></i>
+            </a>
+        </nav>
+
+    </div>
+
+    <div class="contenedor clearfix">
+
+        <main class="contenido-principal">
+
+            <article class="entrada">
+                <!--article se utiliza para contenidos que se explican por si mismos (entradas de blog, noticias, comentarios, entrada a un foro).-->
+                <h2>Viajar a Londrés</h2>
+                <img src="img/imagen_1.jpg" alt="Imagen del Vaije">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nam id quo sint fugit quaerat, architecto nostrum, quibusdam dolorum rerum accusamus distinctio nesciunt quos labore unde aliquid maxime quis molestias!</p>
+                <p>Accusamus quisquam in quidem? Itaque, et asperiores ut quod iste deserunt? Eveniet facere dolores sit sint accusantium distinctio, nostrum ut quidem esse? Amet consectetur adipisicing elit. Magnam, dolorum voluptate.</p>
+                <a href="#" class="boton">Leer Más</a>
+            </article>
+
+            <article class="entrada">
+                <!--article se utiliza para contenidos que se explican por si mismos (entradas de blog, noticias, comentarios, entrada a un foro).-->
+                <h2>Puente de la Torre</h2>
+                <img src="img/imagen_2.jpg" alt="Imagen del Puente">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nam id quo sint fugit quaerat, architecto nostrum, quibusdam dolorum rerum accusamus distinctio nesciunt quos labore unde aliquid maxime quis molestias!</p>
+                <p>Accusamus quisquam in quidem? Itaque, et asperiores ut quod iste deserunt? Eveniet facere dolores sit sint accusantium distinctio, nostrum ut quidem esse? Amet consectetur adipisicing elit. Magnam, dolorum voluptate.</p>
+                <a href="#" class="boton">Leer Más</a>
+            </article>
+
+            <article class="entrada">
+                <!--article se utiliza para contenidos que se explican por si mismos (entradas de blog, noticias, comentarios, entrada a un foro).-->
+                <h2>Metro de Londrés</h2>
+                <img src="img/imagen_3.jpg" alt="Imagen del Metro">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nam id quo sint fugit quaerat, architecto nostrum, quibusdam dolorum rerum accusamus distinctio nesciunt quos labore unde aliquid maxime quis molestias!</p>
+                <p>Accusamus quisquam in quidem? Itaque, et asperiores ut quod iste deserunt? Eveniet facere dolores sit sint accusantium distinctio, nostrum ut quidem esse? Amet consectetur adipisicing elit. Magnam, dolorum voluptate.</p>
+                <a href="#" class="boton">Leer Más</a>
+            </article>
+
+        </main>
+
+        <aside class="sidebar">
+            <section class="otras-entradas">
+                <h2>Otros Posts</h2>
+                <ul>
+                    <li><a href="#">Entrada 1</a></li>
+                    <li><a href="#">Entrada 2</a></li>
+                    <li><a href="#">Entrada 3</a></li>
+                    <li><a href="#">Entrada 4</a></li>
+                </ul>
+            </section>
+        </aside>
+
+    </div>
+    <!--cierre de contenedor-->
+
+    <footer class="footer-sitio">
+        <div class="contenedor clearfix">
+
+            <section class="nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, laudantium? Cumque incidunt quae voluptatem.</p>
+            </section>
+
+            <section class="menu">
+                <h2>Menú de Navegación</h2>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <!--Signo de gato para simular que son enlaces-->
+                    <a href="#">Nosotros</a>
+                    <a href="#">Blogs</a>
+                    <a href="#">Tienda</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </section>
+
+        </div>
+        <p class="copyright">BlogDeViajes - Todos los Derechos Reservados. 2019 &copy;</p>
+    </footer>
+
+</body>
+
+</html>
